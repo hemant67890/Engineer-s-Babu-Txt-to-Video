@@ -64,7 +64,7 @@ bot = Client(
 )
 
 # Center the text dynamically based on terminal width
-centered_text = "◦•●◉✿ 𝕰𝖓𝖌𝖎𝖓𝖊𝖊𝖗𝖘 𝕭𝖆𝖇𝖚 ✿◉●•◦".center(40)
+centered_text = "◦•●◉✿ 𝗙𝗥𝗘𝗘 𝗖𝗢𝗡𝗧𝗔𝗡𝗧 ✿◉●•◦".center(40)
 
 # Inline keyboard for start command
 keyboard = InlineKeyboardMarkup(
@@ -99,7 +99,7 @@ caption = (
     "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
     "➠ **For Guide Use Command /guide 📖**\n"
     "➠ **Use /Upload Command to Download From TXT File** 📄\n"
-    "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @Engineers_Babu"
+    "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** 𝗙𝗥𝗘𝗘 𝗖𝗢𝗡𝗧𝗔𝗡𝗧"
 )
 
 # Authorize command to add/remove authorized channels, users, and groups
@@ -500,7 +500,7 @@ async def upload(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"╭────💥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 💥────╮ \n├ 📝 𝐍𝐚𝐦𝐞 ➠ \n├ ⚡ {name} \n├ 🎥 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 ➠ {raw_text2} \n├ 🔗 𝐔𝐑𝐋 ➠ [Hidden] \n╰─────────────────────╯"
+                    Show = f"╭────💥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 💥────╮ \n├ 🎞️ 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐎𝐧 ➠ {str(count) \n├ 🎶 𝐓𝐨𝐭𝐚𝐥 𝐋𝐢𝐧𝐤𝐬 ➠ {len(links)} \n├ 📝 𝐍𝐚𝐦𝐞 ➠ \n├ ⚡ {name} \n├ 📚 𝐁𝐚𝐭𝐜𝐡 ➠ \n├ 💎 {raw_text0} \n├ 🎥 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 ➠ {raw_text2} \n├ 🔗 𝐔𝐫𝐥 ➠ {url} \n╰─────────────────────╯"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
