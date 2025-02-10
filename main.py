@@ -99,7 +99,7 @@ caption = (
     "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
     "➠ **For Guide Use Command /guide 📖**\n"
     "➠ **Use /Upload Command to Download From TXT File** 📄\n"
-    "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** 𝗙𝗥𝗘𝗘 𝗖𝗢𝗡𝗧𝗔𝗡𝗧"
+    "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** ◦•●◉✿ 𝗙𝗥𝗘𝗘 𝗖𝗢𝗡𝗧𝗔𝗡𝗧 ✿◉●•◦"
 )
 
 # Authorize command to add/remove authorized channels, users, and groups
@@ -511,13 +511,13 @@ async def upload(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`"
+                    f"╭──😢 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝 😢──╮\n├ 🏷️ 𝐍𝐚𝐦𝐞 ➠ {name}\n├ 🔗 𝐋𝐢𝐧𝐤 ➠ `{url}`\n╰─────────────────────╯"
                 )
                 continue
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞**")
+    await m.reply_text("**🎯 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 🎯 \n\nएक तुम्हें पाकर और पाना क्या है!👑\nमैं दुनिया छोड़ दूं!🌐\nये जमाना क्या है💫**")
 
 
 bot.run()
