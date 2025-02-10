@@ -500,7 +500,7 @@ async def upload(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**╭────💥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 💥────╮**\n\n**├ 📝 𝐍𝐚𝐦𝐞 »** `{name}\n**├⚡🎥 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n**├ 🔗𝐔𝐑𝐋 »** `[Hidden]`\n**├ 💫 {centered_text} \n**╰── 🐦‍🔥𝐓𝐇𝐄𝐑𝐌𝐎𝐏𝐎𝐋𝐈™🥷 🐦‍🔥 ──╯**"
+                    Show = f"╭────💥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 💥────╮ \n├ 📝 𝐍𝐚𝐦𝐞 » {name} \n├⚡🎥 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2} \n├ 🔗𝐔𝐑𝐋 » [Hidden] \n╰─────────────────────╯"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
