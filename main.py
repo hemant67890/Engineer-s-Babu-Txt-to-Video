@@ -34,15 +34,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # Environment variables for API credentials
 API_ID = os.environ.get("API_ID", "21705536")
 API_HASH = os.environ.get("API_HASH", "c5bb241f6e3ecf33fe68a444e288de2d")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7825685842:AAH8s89V6PCAU4R-KiHLwsiLOcDly0H5M0g")
 
 # Define the owner's user ID
-OWNER_ID = ......  # Replace with the actual owner's user ID
+OWNER_ID = 6326227068  # Replace with the actual owner's user ID
 
 # Lists to store authorized channels, users, and groups
-authorized_channels = []
-authorized_users = []
-authorized_groups = []
+authorized_channels = [-1002390273529]
+authorized_users = [6326227068]
+authorized_groups = [-1002390273529]
 
 # Check if a user is authorized
 def is_authorized(user_id: int) -> bool:
